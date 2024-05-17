@@ -1,0 +1,217 @@
+.slick-slide,
+.slick-track {
+
+  transition-delay: 30ms;
+}
+
+
+
+
+
+
+section {
+
+  padding: 100px;
+
+}
+
+section h2 {
+
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0 0 40px 0;
+}
+
+.content02 {
+  padding: 0;
+}
+
+
+.main_visual_slide .itm {
+
+  height: 600px;
+}
+
+.main_visual_slide .itm01 {
+
+  background: url(../imges/mainvisual01.jpg)no-repeat top center/cover;
+}
+
+.main_visual_slide .itm02 {
+
+  background: url(../imges/mainvisual02.jpg)no-repeat center center/cover;
+}
+
+.main_visual_slide .itm03 {
+
+  background: url(../imges/mainvisual03.jpg)no-repeat center center/cover;
+}
+
+
+
+.content03 h2 {
+
+  width: 1170px;
+  margin: 0 auto;
+  background: salmon;
+}
+
+.content03 .inner {
+
+  overflow: hidden;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.content03 .product_slide {
+
+  margin: 0 -15px;
+}
+
+
+.content03 .product_slide .itm {
+
+  padding: 0 15px;
+}
+
+
+.coupang {
+  padding: 0;
+  position: relative;
+}
+
+
+.coupang_slide .itm {
+
+  height: 600px;
+}
+
+.coupang_slide .itm01 {
+
+  background: url(../imges/mainvisual01.jpg)no-repeat top center/cover;
+}
+
+.coupang_slide .itm02 {
+
+  background: url(../imges/mainvisual02.jpg)no-repeat center center/cover;
+}
+
+.coupang_slide .itm03 {
+
+  background: url(../imges/mainvisual03.jpg)no-repeat center center/cover;
+}
+
+
+.coupang .dots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  margin: 0 0 0 calc(1170px / 2);
+
+  transform: translate(-100%, -50%);
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+.coupang .dots a {
+
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px;
+
+}
+
+
+.coupang .dots li.on a {
+
+  border: 1px solid tomato;
+}
+
+.coupang .dots li~li {
+  border-top: 1px solid #ddd;
+
+
+}
+
+
+.jiral {
+  padding: 0;
+  position: relative;
+}
+
+.jiral_slide .itm {
+  position: relative;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 150% auto;
+}
+
+.jiral_slide .itm.on {
+  background-size: 100% auto;
+  transition: 0.5s;
+
+}
+
+.jiral_slide .itm01 {
+
+  background-image: url(../imges/mainvisual01.jpg);
+}
+
+.jiral_slide .itm02 {
+
+  background-image: url(../imges/mainvisual02.jpg);
+}
+
+.jiral_slide .itm03 {
+
+  background-image: url(../imges/mainvisual03.jpg);
+}
+
+
+.jiral_slide .itm .slg {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 1170px;
+
+}
+
+.jiral_slide .itm .slg .tit {
+
+  font-size: 100px;
+  font-weight: 800;
+  color: #fff;
+  opacity: 0;
+  transform: translate(0, 100px);
+
+}
+
+.jiral_slide .itm.on .slg .tit {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: 0.5s 0.5s;
+}
+
+.jiral_slide .itm .slg p {
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0;
+  transform: translate(0, 100px);
+
+}
+
+.jiral_slide .itm.on .slg p {
+
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: 0.5s 1s;
+}
